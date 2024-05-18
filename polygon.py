@@ -12,6 +12,7 @@ class Polygon:
         Returns:
             float or int: return perimeter of the polygon.
         """
+        return self.height*self.width
         pass
 
     def getPerimeter(self):
@@ -23,4 +24,6 @@ class Polygon:
         Returns:
             float or int: return perimeter of the polygon.
         """
+        return self.height*2+self.width*2
         pass
+polygon=Polygon(25,22)
